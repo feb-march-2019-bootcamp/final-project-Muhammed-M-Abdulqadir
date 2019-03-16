@@ -1,0 +1,22 @@
+body, html{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('camera.65d7b882.jpg');
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery{
+    margin: 1.2rem;
+}
+
+img{
+    border-radius: .2rem;
+}
