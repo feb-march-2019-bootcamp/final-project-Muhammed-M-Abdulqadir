@@ -1,2 +1,30 @@
+body, html{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/beach.jpg');
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.gallery{
+    margin: 2rem;
+}
+
+img{
+    border-radius: .2rem;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%); 
+}
+
+img:hover{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
+}
